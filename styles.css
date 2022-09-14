@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #EAEBED;
+    font-size: 16px;
+    font-family: Papyrus;
+}
+
+main {
+    display: flex;
+    /* width: 60%; */
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #b5b5b5;
+    color:#6d6f6fce;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+#title {
+    padding: 0px 0 2px 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    padding-top: 10px;
+    text-align: center;
+    color:black;
+}
+
+#tribute-info {
+    padding: 0 5% 0 5%;
+}
+
+h3 {
+    color: rgb(69, 68, 68);
+}
+
+.legend {   
+    margin-right: auto;
+    color:rgb(69, 68, 68);
+    text-align: right;
+    font-size: 13px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info-card {
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 254, 254, 0.268);
+}
+
+.info-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.505) 0px 7px 29px 0px;
+}
+
+.info-card h4 {
+    padding: 10px;
+    color: black;
+}
+
+.info-card p {
+    padding: 10px 20px 0px 20px;
+    color: rgb(152, 65, 65);
+}
+
+#tribute-link {
+    margin-bottom: 10px;
+    color: rgb(69, 68, 68);
+    font-size: 20px;
+
+}
+#tribute-link:hover {
+    color: #EAEBED;
+}
+
+footer {
+    width: 100%;
+    padding-left: 20px;
+    background-color: grey;
+    color: #EAEBED;
+}
+
+footer p {
+    display: inline;
+    margin: 10px;
+}
